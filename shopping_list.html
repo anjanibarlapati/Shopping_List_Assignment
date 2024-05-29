@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            SHOPPING LIST ASSIGNMENT
+        </title>
+        <link rel="stylesheet" href="./shopping_list.css">
+    </head>
+<body>
+    <h1 class="title_heading">SHOPPING LIST</h1>
+  <div class="card">
+    <div class="input_container">
+    <input type="text" name="item" class="input" id="input_id" placeholder="New item...">
+    </div>
+    <div class='item_list_div' id='item_list_div'>
+
+    </div>
+
+    <div class="count_items_div">
+      <div class="marked_items_count">
+        <h4 >Count of Marked items are: <span id="marked_items_count"></span></h4> 
+      </div>
+      <div class="unmarked_items_count">
+        <h4 >Count of Unmarked items are: <span id="unmarked_items_count"></span></h4> 
+      </div>
+      <div class="total_items_count">
+        <h4 >Count of total items are: <span id="total_items_count"></span></h4> 
+      </div>
+    </div>
+    <div class="hide">
+      <input type="checkbox" id="checkbox">
+      <label> Hide Marked Items</label>
+    </div>
+  </div>
+
+    <script src="./shopping_list.js"></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+
+.title_heading
+{
+    color:rgb(144, 144, 146);
+    text-align: center;
+    font-size:50px;
+}
+.input_container
+{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.input
+{
+    width: 80%; 
+    font-size: 20px; 
+    padding: 20px;
+}
+.input::placeholder
+{
+    
+    font-size: 20px;
+    font-weight: bolder;
+}
+.item_list_div
+{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+  
+ gap:20px;
+}
+
+.item_div
+{       
+    background-color: rgb(190, 186, 186);
+    width:80%;
+    border-radius: 5px;
+    padding: 20px;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    justify-content: space-between;
+}
+.item_div_marked
+{   
+    background-color: lightgreen;
+    text-decoration: line-through;
+    width:80%;
+    border-radius: 5px;
+    padding: 20px;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    justify-content: space-between;
+}
+.delete_button
+{
+    position: absolute;
+    right: 12%;
+}
+.count_items_div
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:20px;
+    padding: 40px;
+}
+.marked_items_count , .unmarked_items_count ,.total_items_count
+{
+   border:2px solid black;
+   padding: 10px;
+   border-radius: 3px;
+}
+.hide{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 20px;
+    gap:10px;
+}
+
+
+
